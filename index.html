@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JS -->
+  <script defer src="index.js"></script>
+</head>
+<body>
+</body>
+<!-- Container -->
+<div class="container">
+  <!-- Top Input Field -->
+  <div class="inputField">
+    <ul>
+      <li><label for="date"><h1>Day</h1></label></li>
+      <li><select id="date" class="date" ></select></li>
+    </ul>
+    <ul>
+      <li><label for="month"><h1>Month</h1></label></li>
+      <li><select id="month" class="month"></select></li>
+    </ul>
+    <ul>
+      <li><label for="year"><h1>Year</h1></label></li>
+      <li><select id="year" class="year"></select></li>
+    </ul>
+  </div>
+
+  <div class="line">
+    <div class="h-line"></div>
+    <!-- <img src="assets/images/icon-arrow.svg" alt=""> -->
+    <div class="check-age">
+      <p>&darr;</p>
+    </div>
+  </div>
+  
+
+  <!-- Age Display -->
+  <div class="ageDisplay">
+    
+      <ul>
+      <li class="years"><h2><span>00 </span>years</h2></li>
+      <li class="months"><h2><span>00 </span>Months</h2></li>
+      <li class="days"><h2><span>00 </span>days</h2></li> 
+      </ul>
+      
+    
+  </div>
+ 
+</div>
+ 
+</body>
+</html>
